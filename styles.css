@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('img/ocean.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+.modal__questio {
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 9px;
+  width: 350px;
+  padding: 12PX 34px;
+  font-size: 23px;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  transition: .5s;
+}
+
+.modal__questio:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.modal__answer{
+  display: none;
+  justify-content: space-between;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: WHITE;
+  padding: 15px 20px ;
+  border-radius: 5px;
+
+}
+
+.btn {
+  color: red;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  
+}
